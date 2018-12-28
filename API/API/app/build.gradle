@@ -1,0 +1,44 @@
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    defaultConfig {
+//        applicationId "com.scope.api"
+        minSdkVersion 25
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        release {
+            storeFile file("../scope.jks")
+            storePassword '88888888'
+            keyAlias '503H'
+            keyPassword '88888888'
+        }
+
+        debug {
+            storeFile file("../scope.jks")
+            storePassword '88888888'
+            keyAlias '503H'
+            keyPassword '88888888'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    implementation files('libs/android_dependency.jar')
+    implementation files('libs/classes.jar')
+}

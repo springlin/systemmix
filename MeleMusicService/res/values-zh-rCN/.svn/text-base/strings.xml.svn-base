@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">迈乐音响</string>
+    <string name="myself">音响</string>
+    <string name="mobile">手机</string>
+    <string name="musicapp">音乐应用</string>    
+    <string name="setting">设置</string>
+    <string name="controller">遥控器</string>      
+ 
+    <string name="songlibrary">歌库</string>    
+    <string name="onesong">首</string>
+    <string name="songtrack">歌库的曲目</string> 
+    
+    <string name="myfavorites">我的收藏</string>    
+    <string name="favortiestrack">收藏的曲目</string>
+    <string name="mysongtable">我的歌单</string>    
+    <string name="songtable">个歌单</string>
+    
+    <string name="allmusic">全部音乐</string>    
+    <string name="folder">文件夹</string>
+    <string name="artist">歌手</string>    
+    <string name="album">专辑</string> 
+    
+    <string name="sdcard">U盘</string> 
+    
+    	<string name="downloaded">下载:</string>
+	<string name="begin_download">开始下载</string>
+	<string name="finish_download">下载结束</string>
+	<string name="finished_download_click_install">请点击安装</string>
+	<string name="create_file_failed">创建文件失败</string>
+	<string name="network_error">网络错误</string>
+	<string name="no_storage">储存空间不足</string>
+	
+	<string name="request_failed">请求数据失败</string>
+	
+	
+    <string name="check_update_version_prompt">发现新的版本 %s, 是否升级?</string>
+    <string name="check_update_version_force_prompt">发现新的版本 %s, 你需要升级才能使用</string>
+    <string name="check_update_cancel">以后提醒我</string>
+    <string name="setting_update">更新</string>
+    <string name="details_quit">退出</string>
+    <string name="downloading">正在下载</string>
+	<string name="details_cancel">取消</string>
+	<string name="download_failed">下载失败</string>  
+</resources>

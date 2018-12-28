@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KTV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- dlna -->
+    <string name="device_name">DaPingMu(%s)</string>
+    <string name="unknow_title">Video from DLNA</string>
+    <string name="unknown_artist_name">"Unknown artist"</string>
+    <string name="unknown_album_name">"Unknown album"</string>
+    <string name="unknown_song_name">"Unknown song name"</string>
+    <!-- dlna -->
+    
+    <string name="wifi_disabled">Wifi disabled</string>
+    <string name="photo_flag">♀</string>
+    
+    
+    <string name="caraokset">KTV Setting</string>
+    <string name="mic1vol">MIC1 Volume</string>
+    <string name="mic2vol">MIC2 Volume</string>
+    <string name="revol">Reverberation</string>    
+    <string name="delay">Delay</string>
+    <string name="lowvol">Bass Volume</string>  
+    <string name="sysvol">Sys Volume</string>      
+</resources>

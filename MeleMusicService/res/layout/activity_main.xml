@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    tools:context=".MainActivity" >
+    
+    
+           <LinearLayout
+			  android:orientation="horizontal"
+			  android:padding="50dp"
+			  android:layout_width="match_parent"					 
+			  android:layout_height="wrap_content">
+			  
+           		    <Button 	
+           		        android:id="@+id/gener"
+           		        android:text="普通模式"
+           		        android:textSize="32dp"
+           		        android:layout_width="wrap_content"					 
+			            android:layout_height="wrap_content"/>
+           		    
+             		    
+             		    <Button 	
+           		        android:id="@+id/caraok"
+           		        android:text="卡拉OK模式"
+           		        android:textSize="32dp"
+           		        android:layout_width="wrap_content"					 
+			            android:layout_height="wrap_content"/>
+             		    <Button 	
+           		        android:id="@+id/auxin"
+           		        android:text="AUX-IN模式"
+           		        android:textSize="32dp"
+           		        android:layout_width="wrap_content"					 
+			            android:layout_height="wrap_content"/>         		    
+           		       
+           		       <TextView
+						        android:id="@+id/mode_txt"
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:gravity="center"
+						        android:text="普通模式" />
+			     </LinearLayout>
+       		<LinearLayout
+			  android:orientation="vertical"
+			  android:padding="50dp"
+			  android:layout_centerInParent="true"
+			  android:layout_width="400dp"					 
+			  android:layout_height="wrap_content">"
+					
+       			         
+       			          <TextView
+						        android:id="@+id/bar1_txt"
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:text="IN1--->0" />
+       			         <SeekBar
+					        android:id="@+id/ctrl_bar1"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"				      
+					        android:paddingLeft="8dp"
+					        android:paddingRight="8dp"
+					        
+					        android:max="80"/>
+       			              <TextView
+						        android:id="@+id/bar2_txt"
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:layout_marginTop="10dp"
+						        android:text="IN2--->0" />
+       			          <SeekBar
+					        android:id="@+id/ctrl_bar2"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"				      
+					        android:paddingLeft="8dp"
+					        android:paddingRight="8dp"
+					        android:max="80"/>
+       			                			          <TextView
+						        android:id="@+id/bar3_txt"
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:layout_marginTop="10dp"
+						        android:text="IN3--->0" />
+       			         <SeekBar
+					        android:id="@+id/ctrl_bar3"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"				      
+					        android:paddingLeft="8dp"
+					        android:paddingRight="8dp"
+					        android:max="80"/>
+       			               			          <TextView
+						        android:id="@+id/bar4_txt"
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:layout_marginTop="10dp"
+						        android:text="IN4--->0" />
+       			      <SeekBar
+					        android:id="@+id/ctrl_bar4"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+				            android:max="80"
+					        android:paddingLeft="8dp"
+					        android:paddingRight="8dp"/>
+       			           <TextView
+						        android:id="@+id/bar5_txt"
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:layout_marginTop="10dp"
+						        android:text="IN5--->0" />
+					   <SeekBar
+					        android:id="@+id/ctrl_bar5"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"					      
+					        android:paddingLeft="8dp"
+					        android:paddingRight="8dp"
+					        android:max="80"/>
+          </LinearLayout>
+
+</RelativeLayout>

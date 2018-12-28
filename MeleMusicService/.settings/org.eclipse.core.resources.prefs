@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/com/myun/core/MusicService.java=UTF-8
+encoding//src/com/myun/spring/airplay/AirplayUtils.java=UTF-8
+encoding//src/com/myun/spring/dlna/NscreenDMRServiceBootReciver.java=UTF-8
+encoding//src/com/myun/spring/dlna/NscreenRendererDevice.java=UTF-8
+encoding//src/com/myun/spring/dlna/api/DMRFactory.java=UTF-8
+encoding//src/com/myun/spring/dlna/api/IDlnaMediaPlayAction.java=UTF-8
+encoding//src/com/myun/spring/dlna/api/NscreenDLNAMediaPlayAction.java=UTF-8
+encoding//src/com/myun/spring/dlna/bean/MediaItem.java=UTF-8
+encoding//src/com/myun/spring/dlna/utils/MediaFormatUtils.java=UTF-8
+encoding//src/com/myun/spring/dlna/utils/NscreenConstants.java=UTF-8
+encoding//src/com/myun/spring/dlna/utils/Utils.java=UTF-8

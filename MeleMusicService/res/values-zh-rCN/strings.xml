@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">卡拉OK</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- dlna -->
+    <string name="device_name">DaPingMu(%s)</string>
+    <string name="unknow_title">Video from DLNA</string>
+    <string name="unknown_artist_name">"Unknown artist"</string>
+    <string name="unknown_album_name">"Unknown album"</string>
+    <string name="unknown_song_name">"Unknown song name"</string>
+    <!-- dlna -->
+    
+    <string name="wifi_disabled">Wifi disabled</string>
+    <string name="photo_flag">♀</string>
+    
+    
+    <string name="caraokset">音频设置</string>
+    <string name="mic1vol">话筒1音量</string>
+    <string name="mic2vol">话筒2音量</string>
+    <string name="revol">混响</string>    
+    <string name="delay">延时</string>
+    <string name="lowvol">低音音量</string>  
+    <string name="sysvol">音乐音量</string>        
+</resources>

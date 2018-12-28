@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dg_bg"
+    android:id="@+id/mainlayout"
+    android:paddingTop="60dp"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:orientation="vertical" >
+    
+         <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textColor="#FFFFFFFF"
+	        android:textStyle="bold"
+	        android:textSize="24dp"
+	        android:layout_marginTop="5dp"
+	        android:text="@string/caraokset"/>
+         
+         <LinearLayout
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:gravity="center"
+			  android:layout_marginTop="15dp"			  
+			  android:layout_height="wrap_content">
+    
+            
+                        <TextView
+						        android:id="@+id/mode_txt"
+						        android:layout_width="120dp"
+						        android:gravity="right"
+						        android:layout_height="wrap_content"
+	                            android:textSize="18dp"
+						        android:text="@string/mic1vol" />
+       			         <SeekBar
+					        android:id="@+id/ctrl_bar1"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_centerInParent="true"
+					        android:maxHeight="3dp"
+					        android:minHeight="3dp"
+					        android:paddingLeft="20dp"
+					        android:paddingRight="20dp"
+					        android:layout_marginLeft="10dp"					      	    
+					        android:progressDrawable="@drawable/playseekbar_progress"
+                            android:thumb="@drawable/playseekbar_thumb"
+					        android:max="21"/>
+       			         
+       	</LinearLayout>	
+         
+                <LinearLayout
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:gravity="center"
+			  android:layout_marginTop="4dp"			  
+			  android:layout_height="wrap_content">
+    
+            
+                        <TextView
+						        android:layout_width="120dp"
+						        android:gravity="right"
+						        android:layout_height="wrap_content"
+	                            android:textSize="18dp"
+						        android:text="@string/mic2vol" />
+       			         <SeekBar
+					        android:id="@+id/ctrl_bar2"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_centerInParent="true"
+					        android:maxHeight="3dp"
+					        android:minHeight="3dp"
+					        android:paddingLeft="20dp"
+					        android:paddingRight="20dp"
+					        android:layout_marginLeft="10dp"					      	    
+					        android:progressDrawable="@drawable/playseekbar_progress"
+                            android:thumb="@drawable/playseekbar_thumb"
+					        android:max="21"/>
+       			         
+       	</LinearLayout>	
+       <LinearLayout
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:gravity="center"
+			  android:layout_marginTop="4dp"			  
+			  android:layout_height="wrap_content">
+    
+            
+                        <TextView
+						        android:layout_width="120dp"
+						        android:gravity="right"
+						        android:layout_height="wrap_content"
+	                            android:textSize="18dp"
+						        android:text="@string/sysvol" />
+       			         <SeekBar
+					        android:id="@+id/ctrl_bar6"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_centerInParent="true"
+					        android:maxHeight="3dp"
+					        android:minHeight="3dp"
+					        android:paddingLeft="20dp"
+					        android:paddingRight="20dp"
+					        android:layout_marginLeft="10dp"						      	    
+					        android:progressDrawable="@drawable/playseekbar_progress"
+                            android:thumb="@drawable/playseekbar_thumb"
+					        android:max="16"/>
+       			         
+       	</LinearLayout>	      
+        <LinearLayout
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:gravity="center"
+			  android:layout_marginTop="4dp"			  
+			  android:layout_height="wrap_content">
+    
+            
+                        <TextView
+						        android:layout_width="120dp"
+						        android:gravity="right"
+						        android:layout_height="wrap_content"
+	                            android:textSize="18dp"
+						        android:text="@string/revol" />
+       			         <SeekBar
+					        android:id="@+id/ctrl_bar3"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_centerInParent="true"
+					        android:maxHeight="3dp"
+					        android:minHeight="3dp"
+					        android:paddingLeft="20dp"
+					        android:paddingRight="20dp"
+					        android:layout_marginLeft="10dp"						      	    
+					        android:progressDrawable="@drawable/playseekbar_progress"
+                            android:thumb="@drawable/playseekbar_thumb"
+					        android:max="13"/>
+       			         
+       	</LinearLayout>		         
+        <LinearLayout
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:gravity="center"
+			  android:layout_marginTop="4dp"			  
+			  android:layout_height="wrap_content">
+    
+            
+                        <TextView
+						        android:layout_width="120dp"
+						        android:gravity="right"
+						        android:layout_height="wrap_content"
+	                            android:textSize="18dp"
+						        android:text="@string/delay" />
+       			         <SeekBar
+					        android:id="@+id/ctrl_bar4"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_centerInParent="true"
+					        android:maxHeight="3dp"
+					        android:minHeight="3dp"
+					        android:paddingLeft="20dp"
+					        android:paddingRight="20dp"
+					        android:layout_marginLeft="10dp"						      	    
+					        android:progressDrawable="@drawable/playseekbar_progress"
+                            android:thumb="@drawable/playseekbar_thumb"
+					        android:max="13"/>
+       			         
+       	</LinearLayout>
+       	
+        
+       <LinearLayout
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:gravity="center"
+			  android:layout_marginTop="4dp"			  
+			  android:layout_height="wrap_content">
+    
+            
+                        <TextView
+						        android:layout_width="120dp"
+						        android:gravity="right"
+						        android:layout_height="wrap_content"
+	                            android:textSize="18dp"
+						        android:text="@string/lowvol" />
+       			         <SeekBar
+					        android:id="@+id/ctrl_bar5"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_centerInParent="true"
+					        android:maxHeight="3dp"
+					        android:minHeight="3dp"
+					        android:paddingLeft="20dp"
+					        android:paddingRight="20dp"
+					        android:layout_marginLeft="10dp"						      	    
+					        android:progressDrawable="@drawable/playseekbar_progress"
+                            android:thumb="@drawable/playseekbar_thumb"
+					        android:max="32"/>
+       			         
+       	</LinearLayout>	   
+       	
+	     	      	       			         
+</LinearLayout>
